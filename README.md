@@ -2,7 +2,7 @@
 
 Commander **Fura-i** is speaking, the **FlyStar galaxy** is threatened by floating enemy space mines! Take control of the **Furafura** Spacecraft, and help us in this `arcade shoot-them-up` adventure. You can `invite a friend` to play with you in co-op! Beware, the control of the Furafura is not as easy as you think...  
 
-It should be noted that this is not the first time that intergalactic mines appear in the galaxy. The first assault took place on the Vectrex, in 1982. We called this a **`'Minestorm'`**. Now it takes place on Windows, in C++ with `raylib` rendering. The mathematics and physics tools are `made-in home`. 
+It should be noted that this is not the first time that intergalactic mines appear in the galaxy. The first assault took place on the Vectrex, in 1982. We called this a **`'Minestorm'`**. Now it takes place on Windows, in C++ with `raylib library` rendering tools. The mathematics and physics tools are `made-in home`. 
 
 <br>  
 
