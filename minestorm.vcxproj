@@ -182,7 +182,6 @@ copy $(TargetDir)raylib.dll $(SolutionDir)</Command>
     <ClCompile Include="src\Entity\player_fireball.cpp" />
     <ClCompile Include="src\Entity\spawn_emitter.cpp" />
     <ClCompile Include="src\Entity\spawn_point.cpp" />
-    <ClCompile Include="src\free_console.cpp" />
     <ClCompile Include="src\game.cpp" />
     <ClCompile Include="src\input_engine.cpp" />
     <ClCompile Include="src\main.cpp" />
@@ -222,7 +221,6 @@ copy $(TargetDir)raylib.dll $(SolutionDir)</Command>
     <ClInclude Include="include\Entity\spawn_point.h" />
     <ClInclude Include="include\Entity\text_entity.h" />
     <ClInclude Include="include\enums.h" />
-    <ClInclude Include="include\free_console.h" />
     <ClInclude Include="include\game.h" />
     <ClInclude Include="include\input_engine.h" />
     <ClInclude Include="include\ressources.h" />

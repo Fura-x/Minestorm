@@ -109,9 +109,6 @@
     <ClCompile Include="src\music_engine.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="src\free_console.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="src">
@@ -265,9 +262,6 @@
     </ClInclude>
     <ClInclude Include="include\music_engine.h">
       <Filter>Include</Filter>
-    </ClInclude>
-    <ClInclude Include="include\free_console.h">
-      <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
