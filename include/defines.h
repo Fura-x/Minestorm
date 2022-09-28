@@ -1,0 +1,23 @@
+#pragma once
+
+// SIZE
+#define SCREEN_WIDTH 1200
+#define SCREEN_HEIGHT 800
+#define GAME_WIDTH 640
+#define GAME_HEIGHT 800
+#define GAME_X_MIN (SCREEN_WIDTH / 2 - GAME_WIDTH / 2)
+#define GAME_X_MAX (SCREEN_WIDTH / 2 + GAME_WIDTH / 2)
+#define GAME_Y_MIN (SCREEN_HEIGHT / 2 - GAME_HEIGHT / 2)
+#define GAME_Y_MAX (SCREEN_HEIGHT / 2 + GAME_HEIGHT / 2)
+
+#define TILE_SIZE (SCREEN_WIDTH / 50.f)
+#define SPRITE_SCALE 0.3f
+#define ATLAS_SPRITE_SIZE 256
+#define PLAYER_SIZE 10.f
+
+
+// DEFAULT OPTION
+//#define PLAYER_MAX_COUNT 2
+
+// MACROS
+#define u64 (uint64_t)

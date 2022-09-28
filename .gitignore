@@ -1,0 +1,10 @@
+#unwanted personaly files and directory
+test
+*.zip
+.vs/*
+.vs
+*.exe
+x64
+x64/*
+./raylib.dll
+build

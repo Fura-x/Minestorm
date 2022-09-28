@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{64570e65-7754-48b7-bfd3-717bb2a76af4}</ProjectGuid>
+    <RootNamespace>Minestorm</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>externals/include;include;include/Entity;include/Component;math_toolbox/include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>externals/libs/raylib/Debug.DLL</AdditionalLibraryDirectories>
+      <AdditionalDependencies>raylib.lib</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(TargetDir)Minestorm.exe $(SolutionDir)
+copy $(TargetDir)raylib.dll $(SolutionDir)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>externals/include;include;include/Entity;include/Component;math_toolbox/include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>externals/libs/raylib/Release.DLL</AdditionalLibraryDirectories>
+      <AdditionalDependencies>raylib.lib</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(TargetDir)Minestorm.exe $(SolutionDir)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="math_toolbox\src\2Dcollision.cpp" />
+    <ClCompile Include="math_toolbox\src\float2.cpp" />
+    <ClCompile Include="math_toolbox\src\primitive.cpp" />
+    <ClCompile Include="math_toolbox\src\SATcollision.cpp" />
+    <ClCompile Include="src\collision_engine.cpp" />
+    <ClCompile Include="src\Component\box_collider.cpp" />
+    <ClCompile Include="src\Component\bullet_move.cpp" />
+    <ClCompile Include="src\Component\circle_collider.cpp" />
+    <ClCompile Include="src\Component\concave_collider.cpp" />
+    <ClCompile Include="src\Component\convex_collider.cpp" />
+    <ClCompile Include="src\Component\follow_move.cpp" />
+    <ClCompile Include="src\Component\mine_layer_move.cpp" />
+    <ClCompile Include="src\Component\particle_emitter.cpp" />
+    <ClCompile Include="src\Component\particle_move.cpp" />
+    <ClCompile Include="src\Component\player_move.cpp" />
+    <ClCompile Include="src\Component\spawn.cpp" />
+    <ClCompile Include="src\Component\timer.cpp" />
+    <ClCompile Include="src\Entity\entity.cpp" />
+    <ClCompile Include="src\Entity\fire_magnetic_mine.cpp" />
+    <ClCompile Include="src\Entity\fire_mine.cpp" />
+    <ClCompile Include="src\Entity\floating_mine.cpp" />
+    <ClCompile Include="src\Entity\magnetic_mine.cpp" />
+    <ClCompile Include="src\Entity\mine.cpp" />
+    <ClCompile Include="src\Entity\mine_fireball.cpp" />
+    <ClCompile Include="src\Entity\mine_layer.cpp" />
+    <ClCompile Include="src\Entity\particle.cpp" />
+    <ClCompile Include="src\Entity\player.cpp" />
+    <ClCompile Include="src\Entity\player_fireball.cpp" />
+    <ClCompile Include="src\Entity\spawn_emitter.cpp" />
+    <ClCompile Include="src\Entity\spawn_point.cpp" />
+    <ClCompile Include="src\free_console.cpp" />
+    <ClCompile Include="src\game.cpp" />
+    <ClCompile Include="src\input_engine.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\ressources.cpp" />
+    <ClCompile Include="src\sound_emitter.cpp" />
+    <ClCompile Include="src\music_engine.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\collision_engine.h" />
+    <ClInclude Include="include\Component\box_collider.h" />
+    <ClInclude Include="include\Component\bullet_move.h" />
+    <ClInclude Include="include\Component\circle_collider.h" />
+    <ClInclude Include="include\Component\collider.h" />
+    <ClInclude Include="include\Component\component.h" />
+    <ClInclude Include="include\Component\concave_collider.h" />
+    <ClInclude Include="include\Component\convex_collider.h" />
+    <ClInclude Include="include\Component\follow_move.h" />
+    <ClInclude Include="include\Component\mine_layer_move.h" />
+    <ClInclude Include="include\Component\move.h" />
+    <ClInclude Include="include\Component\particle_emitter.h" />
+    <ClInclude Include="include\Component\particle_move.h" />
+    <ClInclude Include="include\Component\player_move.h" />
+    <ClInclude Include="include\Component\spawn.h" />
+    <ClInclude Include="include\Component\timer.h" />
+    <ClInclude Include="include\defines.h" />
+    <ClInclude Include="include\Entity\entity.h" />
+    <ClInclude Include="include\Entity\fire_magnetic_mine.h" />
+    <ClInclude Include="include\Entity\fire_mine.h" />
+    <ClInclude Include="include\Entity\floating_mine.h" />
+    <ClInclude Include="include\Entity\magnetic_mine.h" />
+    <ClInclude Include="include\Entity\mine.h" />
+    <ClInclude Include="include\Entity\mine_fireball.h" />
+    <ClInclude Include="include\Entity\mine_layer.h" />
+    <ClInclude Include="include\Entity\particle.h" />
+    <ClInclude Include="include\Entity\player.h" />
+    <ClInclude Include="include\Entity\player_fireball.h" />
+    <ClInclude Include="include\Entity\spawn_point.h" />
+    <ClInclude Include="include\Entity\text_entity.h" />
+    <ClInclude Include="include\enums.h" />
+    <ClInclude Include="include\free_console.h" />
+    <ClInclude Include="include\game.h" />
+    <ClInclude Include="include\input_engine.h" />
+    <ClInclude Include="include\ressources.h" />
+    <ClInclude Include="include\sound_emitter.h" />
+    <ClInclude Include="include\music_engine.h" />
+    <ClInclude Include="include\spawn_emitter.h" />
+    <ClInclude Include="include\utils.h" />
+    <ClInclude Include="math_toolbox\include\2Dcollision.h" />
+    <ClInclude Include="math_toolbox\include\float2.h" />
+    <ClInclude Include="math_toolbox\include\math_toolbox.h" />
+    <ClInclude Include="math_toolbox\include\primitive.h" />
+    <ClInclude Include="math_toolbox\include\SATcollision.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

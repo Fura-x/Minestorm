@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\ressources.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\collision_engine.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\input_engine.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Entity\entity.cpp">
+      <Filter>src\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Entity\fire_magnetic_mine.cpp">
+      <Filter>src\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Entity\fire_mine.cpp">
+      <Filter>src\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Entity\floating_mine.cpp">
+      <Filter>src\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Entity\magnetic_mine.cpp">
+      <Filter>src\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Entity\mine_fireball.cpp">
+      <Filter>src\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Entity\mine_layer.cpp">
+      <Filter>src\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Entity\player.cpp">
+      <Filter>src\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Entity\player_fireball.cpp">
+      <Filter>src\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Entity\spawn_point.cpp">
+      <Filter>src\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\box_collider.cpp">
+      <Filter>src\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\bullet_move.cpp">
+      <Filter>src\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\circle_collider.cpp">
+      <Filter>src\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\concave_collider.cpp">
+      <Filter>src\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\convex_collider.cpp">
+      <Filter>src\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\follow_move.cpp">
+      <Filter>src\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\mine_layer_move.cpp">
+      <Filter>src\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\player_move.cpp">
+      <Filter>src\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\spawn.cpp">
+      <Filter>src\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\timer.cpp">
+      <Filter>src\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="math_toolbox\src\2Dcollision.cpp">
+      <Filter>math_toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="math_toolbox\src\float2.cpp">
+      <Filter>math_toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="math_toolbox\src\primitive.cpp">
+      <Filter>math_toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="math_toolbox\src\SATcollision.cpp">
+      <Filter>math_toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Entity\spawn_emitter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Entity\particle.cpp">
+      <Filter>src\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\particle_emitter.cpp">
+      <Filter>src\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\particle_move.cpp">
+      <Filter>src\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Entity\mine.cpp">
+      <Filter>src\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sound_emitter.cpp">
+      <Filter>src\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="src\music_engine.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\free_console.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{3fdd531c-2e31-4fd4-95ac-596241c20915}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Entity">
+      <UniqueIdentifier>{f75ba095-8c27-4291-be85-8fe5aedfb2ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Component">
+      <UniqueIdentifier>{116baa36-8143-4b21-b0ba-0880902c8eeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{658e4e03-422d-4fa0-bc1d-ea4249506226}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Entity">
+      <UniqueIdentifier>{ed37ec0b-12cf-4612-8cf9-66acc10c248f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Component">
+      <UniqueIdentifier>{5baa4a17-2168-40f8-8579-b925797eab62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math_toolbox">
+      <UniqueIdentifier>{fa122e88-54db-461b-ad8f-9c2e4d7feb02}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="math_toolbox\include\2Dcollision.h">
+      <Filter>math_toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="math_toolbox\include\float2.h">
+      <Filter>math_toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="math_toolbox\include\math_toolbox.h">
+      <Filter>math_toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="math_toolbox\include\primitive.h">
+      <Filter>math_toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="math_toolbox\include\SATcollision.h">
+      <Filter>math_toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="include\collision_engine.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\defines.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\enums.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\game.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\input_engine.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ressources.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\spawn_emitter.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utils.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\box_collider.h">
+      <Filter>Include\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\bullet_move.h">
+      <Filter>Include\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\circle_collider.h">
+      <Filter>Include\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\collider.h">
+      <Filter>Include\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\component.h">
+      <Filter>Include\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\concave_collider.h">
+      <Filter>Include\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\convex_collider.h">
+      <Filter>Include\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\follow_move.h">
+      <Filter>Include\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\mine_layer_move.h">
+      <Filter>Include\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\move.h">
+      <Filter>Include\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\particle_emitter.h">
+      <Filter>Include\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\particle_move.h">
+      <Filter>Include\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\player_move.h">
+      <Filter>Include\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\spawn.h">
+      <Filter>Include\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\timer.h">
+      <Filter>Include\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\entity.h">
+      <Filter>Include\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\fire_magnetic_mine.h">
+      <Filter>Include\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\fire_mine.h">
+      <Filter>Include\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\floating_mine.h">
+      <Filter>Include\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\magnetic_mine.h">
+      <Filter>Include\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\mine.h">
+      <Filter>Include\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\mine_fireball.h">
+      <Filter>Include\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\mine_layer.h">
+      <Filter>Include\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\particle.h">
+      <Filter>Include\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\player.h">
+      <Filter>Include\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\player_fireball.h">
+      <Filter>Include\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\spawn_point.h">
+      <Filter>Include\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity\text_entity.h">
+      <Filter>Include\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sound_emitter.h">
+      <Filter>Include\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="include\music_engine.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\free_console.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+  </ItemGroup>
+</Project>
